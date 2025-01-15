@@ -883,7 +883,7 @@ const initializeSocket = (server, app) => {
     });
 
     cron.schedule(
-      `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
+      `*/${30} * * * * *`,
       async () => {
         const updatedData = await getGroupedContestsByStatus();
         socket.emit("contests-data", updatedData);
@@ -891,7 +891,7 @@ const initializeSocket = (server, app) => {
     );
 
     cron.schedule(
-      `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
+      `*/${30} * * * * *`,
       async () => {
         const data = await getPrivateContestData();
         socket.emit("private_contest", data);
