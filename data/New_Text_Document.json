@@ -1,0 +1,381 @@
+[
+    {
+        "_id": "67457b466d7bc8d02b133824",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e14464621edf706bf287",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 58,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133825"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.671Z",
+        "updatedAt": "2024-11-26T07:39:50.671Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b133826",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e14464621edf706bf287",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 58,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133827"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.671Z",
+        "updatedAt": "2024-11-26T07:39:50.671Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b133828",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e1d864621edf706bf28d",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 43,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133829"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.671Z",
+        "updatedAt": "2024-11-26T07:39:50.671Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b13382a",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e1e264621edf706bf28f",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 11,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b13382b"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.671Z",
+        "updatedAt": "2024-11-26T07:39:50.671Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b13382c",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e1ec64621edf706bf291",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 74,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b13382d"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.671Z",
+        "updatedAt": "2024-11-26T07:39:50.671Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b13382e",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e1f764621edf706bf294",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 66,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b13382f"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.671Z",
+        "updatedAt": "2024-11-26T07:39:50.671Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b133830",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e20164621edf706bf296",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 71,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133831"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b133832",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e20e64621edf706bf298",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 57,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133833"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b133834",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e21864621edf706bf29a",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 50,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133835"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b133836",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e22464621edf706bf29c",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 3,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133837"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b133838",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e22f64621edf706bf29e",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 68,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133839"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b13383a",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e23e64621edf706bf2a1",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 11,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b13383b"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b13383c",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e24764621edf706bf2a3",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 75,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b13383d"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b13383e",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e25064621edf706bf2a5",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 7,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b13383f"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b133840",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e25d64621edf706bf2a7",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 89,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133841"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b133842",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e26764621edf706bf2a9",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 19,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133843"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b133844",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e27064621edf706bf2ac",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 88,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133845"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b133846",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e27e64621edf706bf2ae",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 37,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133847"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b133848",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e28864621edf706bf2b0",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 87,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b133849"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b13384a",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e29464621edf706bf2b2",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 23,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b13384b"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    },
+    {
+        "_id": "67457b466d7bc8d02b13384c",
+        "contestId": "6729c4a43cd610d629e9ccf1",
+        "userId": "6718e2a964621edf706bf2b5",
+        "timeslotId": "67457b436d7bc8d02b133684",
+        "winningAmount": 0,
+        "bids": [
+            {
+                "Amount": 23,
+                "bidTimeDate": "2024-11-26T07:48:10.660Z",
+                "_id": "67457b466d7bc8d02b13384d"
+            }
+        ],
+        "totalAmount": 0,
+        "__v": 0,
+        "createdAt": "2024-11-26T07:39:50.672Z",
+        "updatedAt": "2024-11-26T07:39:50.672Z"
+    }
+]
+

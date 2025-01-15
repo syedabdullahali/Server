@@ -1,0 +1,267 @@
+[
+    {
+      "winningAmount": 100,
+      "bids": {
+        "Amount": 50,
+        "bidTimeDate": "2024-11-23T12:00:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893a1"
+      },
+      "totalAmount": 1500,
+      "type": "bot",
+      "name": "Bot Alpha",
+      "__v": 0
+    },
+    {
+        "winningAmount": 100,
+        "bids": {
+          "Amount": 30,
+          "bidTimeDate": "2024-11-23T12:00:00.000Z",
+          "_id": "64a1e4a1b90e3f82c1d893a1"
+        },
+        "totalAmount": 1500,
+        "type": "bot",
+        "name": "Bot Alpha",
+        "__v": 0
+      },
+      {
+        "winningAmount": 100,
+        "bids": {
+          "Amount": 30,
+          "bidTimeDate": "2024-11-23T12:00:00.000Z",
+          "_id": "64a1e4a1b90e3f82c1d893a1"
+        },
+        "totalAmount": 1500,
+        "type": "bot",
+        "name": "Bot Alpha",
+        "__v": 0
+      },
+    {
+      "winningAmount": 20,
+      "bids": {
+        "Amount": 60,
+        "bidTimeDate": "2024-11-23T12:05:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893a2"
+      },
+      "totalAmount": 60,
+      "type": "user",
+      "name": "User John",
+      "__v": 0
+    },
+    {
+        "winningAmount": 200,
+        "bids": {
+          "Amount": 20,
+          "bidTimeDate": "2024-11-23T12:05:00.000Z",
+          "_id": "64a1e4a1b90e3f82c1d893a2"
+        },
+        "totalAmount": 1600,
+        "type": "user",
+        "name": "User John",
+        "__v": 0
+      },
+    {
+      "winningAmount": 150,
+      "bids": {
+        "Amount": 55,
+        "bidTimeDate": "2024-11-23T12:10:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893a3"
+      },
+      "totalAmount": 1550,
+      "type": "bot",
+      "name": "Bot Beta",
+      "__v": 0
+    },
+    {
+      "winningAmount": 300,
+      "bids": {
+        "Amount":52,
+        "bidTimeDate": "2024-11-23T12:15:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893a4"
+      },
+      "totalAmount": 1700,
+      "type": "user",
+      "name": "User Jane",
+      "__v": 0
+    },
+    {
+      "winningAmount": 120,
+      "bids": {
+        "Amount": 52,
+        "bidTimeDate": "2024-11-23T12:20:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893a5"
+      },
+      "totalAmount": 1520,
+      "type": "bot",
+      "name": "Bot Gamma",
+      "__v": 0
+    },
+    {
+      "winningAmount": 180,
+      "bids": {
+        "Amount": 58,
+        "bidTimeDate": "2024-11-23T12:25:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893a6"
+      },
+      "totalAmount": 1580,
+      "type": "user",
+      "name": "User Mike",
+      "__v": 0
+    },
+    {
+      "winningAmount": 140,
+      "bids": {
+        "Amount": 54,
+        "bidTimeDate": "2024-11-23T12:30:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893a7"
+      },
+      "totalAmount": 1540,
+      "type": "bot",
+      "name": "Bot Delta",
+      "__v": 0
+    },
+    {
+      "winningAmount": 250,
+      "bids": {
+        "Amount": 65,
+        "bidTimeDate": "2024-11-23T12:35:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893a8"
+      },
+      "totalAmount": 1650,
+      "type": "user",
+      "name": "User Sarah",
+      "__v": 0
+    },
+    {
+      "winningAmount": 110,
+      "bids": {
+        "Amount": 51,
+        "bidTimeDate": "2024-11-23T12:40:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893a9"
+      },
+      "totalAmount": 1510,
+      "type": "bot",
+      "name": "Bot Epsilon",
+      "__v": 0
+    },
+    {
+      "winningAmount": 190,
+      "bids": {
+        "Amount": 59,
+        "bidTimeDate": "2024-11-23T12:45:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893b0"
+      },
+      "totalAmount": 1590,
+      "type": "user",
+      "name": "User Alex",
+      "__v": 0
+    },
+    {
+      "winningAmount": 130,
+      "bids": {
+        "Amount": 53,
+        "bidTimeDate": "2024-11-23T12:50:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893b1"
+      },
+      "totalAmount": 1530,
+      "type": "bot",
+      "name": "Bot Zeta",
+      "__v": 0
+    },
+    {
+      "winningAmount": 280,
+      "bids": {
+        "Amount": 68,
+        "bidTimeDate": "2024-11-23T12:55:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893b2"
+      },
+      "totalAmount": 1680,
+      "type": "user",
+      "name": "User Emma",
+      "__v": 0
+    },
+    {
+      "winningAmount": 160,
+      "bids": {
+        "Amount": 56,
+        "bidTimeDate": "2024-11-23T13:00:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893b3"
+      },
+      "totalAmount": 1560,
+      "type": "bot",
+      "name": "Bot Theta",
+      "__v": 0
+    },
+    {
+      "winningAmount": 210,
+      "bids": {
+        "Amount": 62,
+        "bidTimeDate": "2024-11-23T13:05:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893b4"
+      },
+      "totalAmount": 1620,
+      "type": "user",
+      "name": "User Kevin",
+      "__v": 0
+    },
+    {
+      "winningAmount": 170,
+      "bids": {
+        "Amount": 57,
+        "bidTimeDate": "2024-11-23T13:10:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893b5"
+      },
+      "totalAmount": 1570,
+      "type": "bot",
+      "name": "Bot Sigma",
+      "__v": 0
+    },
+    {
+      "winningAmount": 240,
+      "bids": {
+        "Amount": 64,
+        "bidTimeDate": "2024-11-23T13:15:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893b6"
+      },
+      "totalAmount": 1640,
+      "type": "user",
+      "name": "User Lily",
+      "__v": 0
+    },
+    {
+      "winningAmount": 180,
+      "bids": {
+        "Amount": 58,
+        "bidTimeDate": "2024-11-23T13:20:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893b7"
+      },
+      "totalAmount": 1580,
+      "type": "bot",
+      "name": "Bot Omega",
+      "__v": 0
+    },
+    {
+      "winningAmount": 260,
+      "bids": {
+        "Amount": 66,
+        "bidTimeDate": "2024-11-23T13:25:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893b8"
+      },
+      "totalAmount": 1660,
+      "type": "user",
+      "name": "User David",
+      "__v": 0
+    },
+    {
+      "winningAmount": 190,
+      "bids": {
+        "Amount": 59,
+        "bidTimeDate": "2024-11-23T13:30:00.000Z",
+        "_id": "64a1e4a1b90e3f82c1d893b9"
+      },
+      "totalAmount": 1590,
+      "type": "bot",
+      "name": "Bot Lambda",
+      "__v": 0
+    }
+]
+  
