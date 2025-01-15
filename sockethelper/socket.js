@@ -565,7 +565,7 @@ const initializeSocket = (server, app) => {
 
     // main contest
     cron.schedule(
-      `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
+      `*/${30} * * * * *`,
       () => {
         checkAndCompleteMainContests(io);
       }
@@ -588,7 +588,7 @@ const initializeSocket = (server, app) => {
       });
 
     cron.schedule(
-      `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
+      `*/${30} * * * * *`,
       () => {
         hnadleDashBord()
           .then((data) => {
@@ -609,14 +609,14 @@ const initializeSocket = (server, app) => {
     );
 
     cron.schedule(
-      `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
+      `*/${30} * * * * *`,
       () => {
         getAndEmitContestsForAllCategories(io);
       }
     );
 
     cron.schedule(
-      `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
+      `*/${30} * * * * *`,
       async () => {
         const updatedData = await getGroupedContestsByStatus();
         socket.emit("get_Rank_Toper", updatedData);
