@@ -830,10 +830,10 @@ const initializeSocket = (server, app) => {
         }
       };
       emitCategories();
-      const cronJob = cron.schedule(
-        `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
-        emitCategories
-      );
+      // const cronJob = cron.schedule(
+      //   `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
+      //   emitCategories
+      // );
       socket.on("disconnect", () => {
         cronJob.stop();
         socket.leave(userId);
@@ -861,10 +861,10 @@ const initializeSocket = (server, app) => {
         }
       };
       emitCategories();
-      const cronJob = cron.schedule(
-        `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
-        emitCategories
-      );
+      // const cronJob = cron.schedule(
+      //   `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
+      //   emitCategories
+      // );
       socket.on("disconnect", () => {
         cronJob.stop();
         socket.leave(userId);
