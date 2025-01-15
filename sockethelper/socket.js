@@ -565,7 +565,7 @@ const initializeSocket = (server, app) => {
 
     // main contest
     cron.schedule(
-      `*/${30} * * * * *`,
+      `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
       () => {
         checkAndCompleteMainContests(io);
       }
@@ -588,7 +588,7 @@ const initializeSocket = (server, app) => {
       });
 
     cron.schedule(
-      `*/${30} * * * * *`,
+      `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
       () => {
         hnadleDashBord()
           .then((data) => {
@@ -609,14 +609,14 @@ const initializeSocket = (server, app) => {
     );
 
     cron.schedule(
-      `*/${30} * * * * *`,
+      `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
       () => {
         getAndEmitContestsForAllCategories(io);
       }
     );
 
     cron.schedule(
-      `*/${30} * * * * *`,
+      `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
       async () => {
         const updatedData = await getGroupedContestsByStatus();
         socket.emit("get_Rank_Toper", updatedData);
@@ -830,10 +830,10 @@ const initializeSocket = (server, app) => {
         }
       };
       emitCategories();
-      // const cronJob = cron.schedule(
-      //   `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
-      //   emitCategories
-      // );
+      const cronJob = cron.schedule(
+        `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
+        emitCategories
+      );
       socket.on("disconnect", () => {
         cronJob.stop();
         socket.leave(userId);
@@ -861,10 +861,10 @@ const initializeSocket = (server, app) => {
         }
       };
       emitCategories();
-      // const cronJob = cron.schedule(
-      //   `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
-      //   emitCategories
-      // );
+      const cronJob = cron.schedule(
+        `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
+        emitCategories
+      );
       socket.on("disconnect", () => {
         cronJob.stop();
         socket.leave(userId);
@@ -883,7 +883,7 @@ const initializeSocket = (server, app) => {
     });
 
     cron.schedule(
-      `*/${30} * * * * *`,
+      `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
       async () => {
         const updatedData = await getGroupedContestsByStatus();
         socket.emit("contests-data", updatedData);
@@ -891,7 +891,7 @@ const initializeSocket = (server, app) => {
     );
 
     cron.schedule(
-      `*/${30} * * * * *`,
+      `*/${process.env.EVENT_TRIGGER_TIME_SECOND} * * * * *`,
       async () => {
         const data = await getPrivateContestData();
         socket.emit("private_contest", data);
