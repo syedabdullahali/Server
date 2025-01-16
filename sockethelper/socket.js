@@ -71,7 +71,7 @@ const initializeSocket = (server, app) => {
 
   const io = new Server(server, {
     cors: {
-      origin: "https://your-frontend-domain.com", // Replace this with your actual frontend URL
+      origin: "https://backend.wonbybid.com", // Replace this with your actual frontend URL
       methods: ["GET", "POST"],
       allowedHeaders: ["Content-Type"],
       credentials: true, // Set to true if you're using cookies or session-based authentication
