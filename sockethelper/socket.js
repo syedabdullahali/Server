@@ -71,11 +71,12 @@ const initializeSocket = (server, app) => {
 
   const io = new Server(server, {
     cors: {
-      origin: "https://backend.wonbybid.com", // Replace this with your actual frontend URL
-      methods: ["GET", "POST"],
+      origin: "*",  // Allow all origins
+      methods: "*", // Allow all HTTP methods
       allowedHeaders: ["Content-Type"],
-      credentials: true, // Set to true if you're using cookies or session-based authentication
-    }
+      credentials: true, // Allow credentials (cookies, sessions, etc.)
+    },
+    transports: ["websocket", "polling"], // Ensure WebSocket is supported
   });
 
   app.use((req, res, next) => {
