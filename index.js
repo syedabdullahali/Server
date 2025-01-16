@@ -3,18 +3,10 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 app.use(require("cors")());
-const fs = require('fs');
-const https = require('https')
-
-// const http = require("http");
+const http = require("http");
 require('dotenv').config()
 
-// const server = http.createServer(app);
-const key = fs.readFileSync('cert.key');
-const cert = fs.readFileSync('cert.crt');
-
-const server = https.createServer({key, cert}, app);
-
+const server = http.createServer(app);
 const initializeSocket = require("./sockethelper/socket");
 const { handalePrizeDistribution } = require("./function/HandaleprizeDistribution");
 initializeSocket(server, app);
