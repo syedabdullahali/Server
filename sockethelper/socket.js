@@ -71,12 +71,12 @@ const initializeSocket = (server, app) => {
 
   const io = new Server(server, {
     cors: {
-      origin: "*",  // Allow all origins
-      methods: "*", // Allow all HTTP methods
-      allowedHeaders: ["Content-Type"],
-      credentials: true, // Allow credentials (cookies, sessions, etc.)
+      origin: "*",  // Allow any origin
+      methods: "*", // Allow all HTTP methods (GET, POST, etc.)
+      allowedHeaders: ["Content-Type"], // Allow Content-Type header
+      credentials: true,  // Allow credentials such as cookies or sessions
     },
-    transports: ["websocket", "polling"], // Ensure WebSocket is supported
+    transports: ["websocket", "polling"], // Ensure WebSocket and polling transports are supported
   });
 
   app.use((req, res, next) => {

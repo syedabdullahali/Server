@@ -6,7 +6,7 @@ app.use(require("cors")());
 const http = require("http");
 require('dotenv').config()
 
-const server = http.createServer(app);
+const server =  http.createServer({}, app);
 const initializeSocket = require("./sockethelper/socket");
 const { handalePrizeDistribution } = require("./function/HandaleprizeDistribution");
 initializeSocket(server, app);
