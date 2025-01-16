@@ -68,11 +68,13 @@ const wathPrivateContestChanges =(callback)=>{
 
 
 const initializeSocket = (server, app) => {
-  
+
   const io = new Server(server, {
     cors: {
-      origin: "http://backend.wonbybid.com/", // Replace with your actual frontend URL
-      methods: ["GET", "POST"]
+      origin: "https://your-frontend-domain.com", // Replace this with your actual frontend URL
+      methods: ["GET", "POST"],
+      allowedHeaders: ["Content-Type"],
+      credentials: true, // Set to true if you're using cookies or session-based authentication
     }
   });
 
