@@ -1922,7 +1922,7 @@ const winingUser = async (contestId, timeslotId,userId) => {
         max: ranking.contestId.bidRangeOfContest?.maxBidRange || 0,
         min: ranking.contestId.bidRangeOfContest?.minBidRange || 0,
       },
-      upto: ((ranking?.contestId?.upto ) - (userCount?.bids?.length||0)),
+      upto: ((userCount?.bids?.length?ranking?.contestId?.upto  - (userCount?.bids?.length):ranking?.contestId?.upto)),
       cuurenttimeSlots: currentTimeSlot,
       lastThreeDayBidReview:{
         topFiveAmountWinner: filterBidFunction(response.slice().sort((a, b) => b.winingRange - a.winingRange).slice(0, 5)),
