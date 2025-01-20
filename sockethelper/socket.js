@@ -79,6 +79,8 @@ const initializeSocket = (server, app) => {
     transports: ["websocket", "polling"], // Ensure WebSocket and polling transports are supported
   });
 
+  
+
   app.use((req, res, next) => {
     req.io = io;
     next();
@@ -101,7 +103,8 @@ const initializeSocket = (server, app) => {
 //------------------------------------------ Main Contest --------------------------------------------
     let mainCategoryData ={}
     let mainContestPrevData = {}
-
+    let prevContestData = {}
+    
 //------------------------------------------ Private Contest --------------------------------------------
     let prevPrivateContestCategory = {}
     let prevPrivateContestCategorySocketId=''
@@ -252,28 +255,57 @@ const initializeSocket = (server, app) => {
     });
     
 
-    socket.on("get-winninguser", (data) => {
-      const socketId = users[data.userId]?.toString();
-      const roomId = `${data.contestId}___${data.timeSlotId}___${socketId}`;
+    socket.on("get-winninguser", async (data) => {
+      try {
+        // Validate incoming data
+        if (!data || !data.contestId || !data.timeSlotId || !data.userId) {
+          console.error("Invalid data received:", data);
+          return;
+        }
+    
+        const socketId = users[data.userId]?.toString();
+        if (!socketId) {
+          console.error(`Socket ID not found for userId: ${data.userId}`);
+          return;
+        }
+    
+        const roomId = `${data.contestId}___${data.timeSlotId}___${socketId}`;
+    
+        // Join the room
+        socket.join(roomId);
+    
 
-      // Join the socket room
-      socket.join(roomId);
+        // Function to fetch and emit winning user data
+        const handleWinningUser = async (isMenual) => {
+          try {
+            const response = await winingUser(data.contestId, data.timeSlotId, data.userId);
 
-      // Stop and clean up any existing cron job for the same roomId
-      if (activeCronsId[roomId]) {
-        activeCronsId[roomId].stop();
-        delete activeCronsId[roomId];
-      }
+             if(JSON.stringify(prevContestData?.currentWiningUsers)!==JSON.stringify(response?.currentWiningUsers)||isMenual){
+              io.to(roomId).emit("user-winning", response);
+              prevContestData = response
+            }
 
-      // Emit initial winning user data
-     const handaleWiningUser =()=>{
-        winingUser(data.contestId, data.timeSlotId, userId).then((response) => {
-           io.to(roomId).emit("user-winning", response);
+          } catch (error) {
+            console.error(`Error fetching winning user for room ${roomId}:`, error);
+          }
+        };
+    
+        // Emit initial data
+        await handleWinningUser(true);
+        // Watch for category changes and invoke the handler
+        watchCategoryChanges(()=>handleWinningUser(false));
+
+        socket.on("disconnect", () => {
+           socket.leave(roomId);
+           prevContestData={}
+           console.log(`Socket disconnected for userId: ${userId}`);
         });
-     }
-      handaleWiningUser()
-      watchCategoryChanges(handaleWiningUser)
+    
+      } catch (error) {
+        console.error("Error handling 'get-winninguser' event:", error);
+      }
     });
+    
 
   //------------------------------------------ Private Contest --------------------------------------------
 
@@ -916,4 +948,5 @@ const initializeSocket = (server, app) => {
 };
 
 module.exports = initializeSocket;
+
 

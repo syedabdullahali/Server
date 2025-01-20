@@ -1910,6 +1910,7 @@ const winingUser = async (contestId, timeslotId,userId) => {
       return arr.map((el)=>el._id)
     }
 
+    console.log(ranking?.contestId?.upto,'ranking?.contestId?.upto')
     
     return {
       contestInfo: {
@@ -1921,7 +1922,7 @@ const winingUser = async (contestId, timeslotId,userId) => {
         max: ranking.contestId.bidRangeOfContest?.maxBidRange || 0,
         min: ranking.contestId.bidRangeOfContest?.minBidRange || 0,
       },
-      upto: (ranking.contestId.upto || 0) - userCount?.bids?.length||0,
+      upto: ((ranking?.contestId?.upto ) - (userCount?.bids?.length||0)),
       cuurenttimeSlots: currentTimeSlot,
       lastThreeDayBidReview:{
         topFiveAmountWinner: filterBidFunction(response.slice().sort((a, b) => b.winingRange - a.winingRange).slice(0, 5)),
